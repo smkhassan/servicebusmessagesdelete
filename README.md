@@ -9,6 +9,8 @@ $ pip install azure-servicebus==0.21.1
 ```
 **Free Software, Hell Yeah!**
 
+**Use this Script to Delete Messages from Microsoft Azure Cloud Service Bus Topics or Queue without delete the resource!**
+
 ### Usage
 - Please set your subscription in code ```az account set -s "Your Subscription" ```
 - Please define `namespaceNAMES` in code and uncomment it the namespaces for topic or queue in both scripts `sb-topic.sh` and `sb-queue.sh` depends on which one you want to use.
